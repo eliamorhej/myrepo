@@ -5,11 +5,11 @@ programmer: elia morhej
 import java.util.Scanner;
 public class Algorithm1
 {
- public static double FToCFormula(double value)
+ public static double CtoFFormula(double value)
 	{
 		/*this method takes the inputted F value and
 		converts it to C using the conventional forumla*/
-		return( value - 32 ) * 5/9;
+		return( value * 9/5 ) + 32;
 	}
 
 
@@ -17,10 +17,10 @@ public class Algorithm1
 	{
 		Scanner keyboard = new Scanner(System.in);
 		double value;
-		System.out.print("Enter a value in Fahrenheit: \n");
+		System.out.print("Enter a value in Celsius: \n");
 		value = keyboard.nextDouble(); //user's input put into var value
 
-		System.out.println( value + " is " + (FToCFormula(value)) + " in Celsius. \n");
+		System.out.println( value + " is " + (CtoFFormula(value)) + " in Fahrenheit. \n");
 
     }
 
