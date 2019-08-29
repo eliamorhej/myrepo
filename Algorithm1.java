@@ -3,7 +3,7 @@ intro to computer science 1.
 programmer: elia morhej
 */
 
-public class algorithm1
+public class Algorithm1
 {
 
 
