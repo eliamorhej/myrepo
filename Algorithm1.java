@@ -7,8 +7,8 @@ public class Algorithm1
 {
  public static double CtoFFormula(double value)
 	{
-		/*this method takes the inputted F value and
-		converts it to C using the conventional forumla*/
+		/*this method takes the inputted C value and
+		converts it to F using the conventional forumla*/
 		return( value * 9/5 ) + 32;
 	}
 
